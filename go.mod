@@ -1,4 +1,4 @@
-module github.com/mdwhatcott/cli-template
+module git.sr.ht/~mdwhat/cli-template
 
 go 1.20
 
