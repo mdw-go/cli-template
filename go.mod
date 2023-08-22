@@ -9,4 +9,5 @@ require (
 	github.com/mdwhatcott/must v1.1.0
 	github.com/mdwhatcott/slogging v1.0.0
 	github.com/mdwhatcott/testing v1.2.0
+	github.com/mdwhatcott/tui v1.0.0
 )
