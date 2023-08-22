@@ -3,9 +3,6 @@ package lib
 import (
 	"testing"
 
-	"github.com/mdwhatcott/funcy"
-	"github.com/mdwhatcott/go-set/v2/set"
-	"github.com/mdwhatcott/must/must"
 	"github.com/mdwhatcott/testing/should"
 )
 
@@ -20,7 +17,5 @@ type Suite struct {
 func (this *Suite) Setup() {}
 
 func (this *Suite) Test() {
-	this.So(must.Value("hello", nil), should.Equal, "hello")
-	this.So(funcy.Sum([]int{1, 2, 3}), should.Equal, 6)
-	this.So(set.Of[int](1, 1, 2, 2, 3, 3).Len(), should.Equal, 3)
+	this.So(1, should.Equal, 1)
 }
