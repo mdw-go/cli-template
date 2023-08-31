@@ -9,5 +9,5 @@ import (
 	_ "github.com/mdwhatcott/must/must"
 	_ "github.com/mdwhatcott/slogging"
 	_ "github.com/mdwhatcott/testing/should"
-	_ "github.com/mdwhatcott/tui"
+	_ "github.com/mdwhatcott/tui/v2"
 )
