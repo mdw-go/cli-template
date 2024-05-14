@@ -3,8 +3,8 @@ module github.com/mdwhatcott/cli-template
 go 1.22
 
 require (
-	github.com/mdwhatcott/exec v1.1.0
-	github.com/mdwhatcott/funcy v1.8.0
+	github.com/mdwhatcott/exec v1.2.0
+	github.com/mdwhatcott/funcy v1.9.0
 	github.com/mdwhatcott/go-set/v2 v2.0.1
 	github.com/mdwhatcott/must v1.2.0
 	github.com/mdwhatcott/slogging v1.0.0
