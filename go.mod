@@ -1,13 +1,13 @@
-module github.com/mdwhatcott/cli-template
+module github.com/mdw-go/cli-template
 
 go 1.23
 
 require (
-	github.com/mdwhatcott/exec v1.3.2
-	github.com/mdwhatcott/funcy v1.10.0
-	github.com/mdwhatcott/go-set/v2 v2.0.1
-	github.com/mdwhatcott/must v1.2.0
-	github.com/mdwhatcott/slogging v1.0.0
-	github.com/mdwhatcott/testing v1.4.2
-	github.com/mdwhatcott/tui/v2 v2.0.1
+	github.com/mdw-go/exec v1.4.0
+	github.com/mdw-go/funcy v1.13.0
+	github.com/mdw-go/must v1.4.0
+	github.com/mdw-go/set/v2 v2.4.0
+	github.com/mdw-go/slogging v1.1.0
+	github.com/mdw-go/testing v1.5.0
+	github.com/mdw-go/tui/v2 v2.1.0
 )
