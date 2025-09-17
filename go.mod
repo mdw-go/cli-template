@@ -8,6 +8,6 @@ require (
 	github.com/mdw-go/must v1.5.0
 	github.com/mdw-go/set v1.2.0
 	github.com/mdw-go/slogging v1.1.0
-	github.com/mdw-go/testing v1.5.1
+	github.com/mdw-go/testing/v2 v2.0.0
 	github.com/mdw-go/tui/v2 v2.1.1
 )

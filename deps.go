@@ -8,6 +8,6 @@ import (
 	_ "github.com/mdw-go/must/must"
 	_ "github.com/mdw-go/set"
 	_ "github.com/mdw-go/slogging"
-	_ "github.com/mdw-go/testing/should"
+	_ "github.com/mdw-go/testing/v2/should"
 	_ "github.com/mdw-go/tui/v2"
 )

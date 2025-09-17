@@ -3,15 +3,16 @@ package lib
 import (
 	"testing"
 
-	"github.com/mdw-go/testing/should"
+	"github.com/mdw-go/testing/v2/should"
+	"github.com/mdw-go/testing/v2/suite"
 )
 
 func TestSuite(t *testing.T) {
-	should.Run(&Suite{T: should.New(t)}, should.Options.UnitTests())
+	suite.Run(&Suite{T: suite.New(t)}, suite.Options.UnitTests())
 }
 
 type Suite struct {
-	*should.T
+	*suite.T
 }
 
 func (this *Suite) Setup() {}
